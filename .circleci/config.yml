@@ -1,10 +1,11 @@
-# Exercise: Smoke Testing
-smoke_test:
- docker:
-   - image: alpine:latest
- steps:
-   - run: apk add --update curl
-   - run:
+jobs:
+ # Exercise: Smoke Testing
+ smoke_test:
+  docker:
+    - image: alpine:latest
+  steps:
+    - run: apk add --update curl
+    - run:
        name: smoke test
        command: |
          URL="https://blog.udacity.com/"
