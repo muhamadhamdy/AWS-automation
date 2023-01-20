@@ -17,3 +17,7 @@ jobs:
             else
               return 1
             fi
+workflows:
+  myjobs:
+    jobs:
+      - smoke_test
