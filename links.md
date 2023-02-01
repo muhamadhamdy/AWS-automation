@@ -5,3 +5,6 @@ https://stackoverflow.com/questions/59449015/cors-error-when-running-pm2-start-s
 
 
 https://kinsta.com/blog/err_blocked_by_client/
+
+
+https://pm2.keymetrics.io/docs/tutorials/pm2-nginx-production-setup
